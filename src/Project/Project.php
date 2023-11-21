@@ -6,6 +6,7 @@ use JiraCloud\AssigneeTypeEnum;
 use JiraCloud\ClassSerialize;
 use JiraCloud\JiraException;
 
+#[\AllowDynamicProperties]
 class Project implements \JsonSerializable
 {
     use ClassSerialize;
